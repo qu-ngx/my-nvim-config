@@ -81,8 +81,6 @@ a - add a new file in directory
 **Vim Mazimizer:**
 space sm - Maximize the current window
 
-**
-
 **Comments:**
 gcG - Comment / Uncomment ill the lines
 gcc - Comment the line
@@ -92,3 +90,17 @@ gc2j - Comment 2 lines down the cursor
 -- TODO:     to make a todo marker
 Space ft - To find all the markers
 
+**wrap around a quotation mark: (Must be in the body to do anything)**
+ys + iw + "" - yanking and then surrounding with double quotes
+ds + "" - delete the tag surrounding the tag 
+ys + motion - to cover all content + tag 
+
+**LSP**
+gd - highlight the defination and see the definition in the language
+Ctrl O - Go back grom the definition
+Space ca - Activate code actions to fix with suggesion
+Space rn - rename a variable
+:wa - Write all
+
+**Trouble:**
+Space xw - see whole files with errors
