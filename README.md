@@ -1,4 +1,4 @@
-# my-nvim-config
+# my-nvim-guide
 
 **Requirements:**
 - Install Homebrew:
@@ -57,7 +57,38 @@ A few Vim cmd to get started in Vim:
 
 Space t o/p/x -> open / previous / close 
 
-Tmux:
+**Tmux:**
 Space s h -> horizontal split
 Space s v -> vertical split
-Space s x -> close the window 
+Space s x -> close the window
+Ctrl h j k l -> nav between windows
+
+**File explorer:**
+Space ee -> open entire dir 
+Space ef -> open the current folder
+Space ec -> Collapse file explorer
+Space er -> Refresh file explorer
+
+**File finder (Telescope):**
+space ff -> Open file finder
+Ctrl k / j -> Go down / up in the finder
+space fr -> Look for recently opened files
+
+**Change file (renaming / add a new file in normal mode):**
+r - rename a file in directory
+a - add a new file in directory
+
+**Vim Mazimizer:**
+space sm - Maximize the current window
+
+**
+
+**Comments:**
+gcG - Comment / Uncomment ill the lines
+gcc - Comment the line
+gc2j - Comment 2 lines down the cursor
+
+**To Do Comments:**
+-- TODO:     to make a todo marker
+Space ft - To find all the markers
+
